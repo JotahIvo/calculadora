@@ -81,7 +81,7 @@ class Calculator{
             return `${integerDisplay}.${decimalDigits}`;
         } else {
             return integerDisplay;
-        }
+        };
     };
 
     updateDisplay(){
@@ -91,7 +91,7 @@ class Calculator{
                 `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`;
         } else {
             this.previousOperandTextElement.innerText = '';
-        }
+        };
     };
 };
 
